@@ -1,0 +1,25 @@
+
+
+.service {
+    margin: 4rem 6rem;
+}
+
+.service p {
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    padding: 4rem 6rem;
+    font-weight: 200;
+    color: #fff;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 850px) {
+    .service {
+        margin: 2rem 2rem;
+    }
+
+    .service p {
+        padding: 2rem 2rem;
+    }
+}

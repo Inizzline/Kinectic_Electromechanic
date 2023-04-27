@@ -1,0 +1,60 @@
+
+.BigText {
+    margin: 4rem 6rem;
+}
+
+.about-des {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.about-h2 {
+    display: flex;
+    text-align: start;
+}
+
+.about-h2 h2 {
+    color: #2F58CD;
+    font-weight: 800;
+    margin: -7rem 0;
+    width: 70%;
+   
+    
+}
+
+.about-paragraph {
+    position: relative;
+    text-align: start;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+    font-weight: 200;
+    font-size: .9rem;
+}
+
+@media screen and (max-width: 850px) {
+    .BigText {
+        margin: 2rem 2rem;
+    }
+    
+    .about-des {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-h2 {
+        width: 80%;
+        margin: 2rem 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .about-paragraph {
+        width: 100%;
+    }
+    
+}

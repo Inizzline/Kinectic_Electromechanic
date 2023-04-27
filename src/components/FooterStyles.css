@@ -1,0 +1,102 @@
+.footer {
+    padding: 3rem 6rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    flex-wrap: wrap;
+}
+
+.top i {
+    color: #FFEA20;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    
+}
+
+.top h1 {
+    color: #FFEA20;
+    font-size: 1.5rem;
+}
+
+.top p {
+    color: #ccc;
+    font-weight: 200;
+}
+
+.top i:hover {
+    color: #fff;
+}
+
+.mid {
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 220px;
+    flex-wrap: wrap;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: -0.5rem;
+}
+
+a:hover {
+    color: #FFEA20;;
+}
+
+.mid div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2px;
+}
+
+.mid h4 {
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+}
+
+.mid p {
+    color: #ccc;
+    padding-bottom: 0.4rem;
+    margin-top: -0.5rem;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.bottom p{
+    color: #ccc;
+    padding-top: 2rem;
+    text-align: start;
+    font-size: 0.85rem;
+}
+
+.hr {
+    background: #ccc;
+    height: .3px;
+    border: none;
+}
+
+@media screen and (max-width: 850px) {
+    .footer {
+        padding: 4rem 2rem;
+    }
+
+    .footer i {
+        padding: 1rem 1rem 0 0;
+    }
+
+    .mid div {
+        width: 100%;
+    }
+}
